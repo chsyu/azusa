@@ -1,0 +1,213 @@
+[
+    {
+      "id": "0",
+      "courseType":"皮拉提斯",
+      "coursesAll":"10",
+      "exCourse":"否",
+      "coach" :{ 
+        "coachName": "A",
+        "coachGender":"男",
+        "coachPhone":"0900-000-000",
+        "major":[
+            "PT","皮拉提斯"
+          ],
+        "joinDate":"2020/01/30",
+        "salary":"650"
+      },
+      "student": {
+        "createDate":"2022/06/23",
+        "stuID":"1",
+        "stuName": "Lulu",
+        "stuGender":"女",
+        "stuNote": "睡眠不足",
+        "coursesFIN":"4",
+        "courseLeft":"6",
+        "preCourseLeft":"6",
+        "stuPhone":"0928-532-816",
+        "buyDetailArray":[{
+          "courseType":"皮拉提斯",
+          "coachName": "A",
+          "coursesAll":"10",
+          "payMethod":"現金",
+          "invoiceNum" :"12345678",
+          "buyDate":"2022/06/23",
+          "exCourse":"否",
+          "salaryS":"6500"
+        }],
+        "buyDetail":{
+          "courseType":"皮拉提斯",
+          "coachName": "A",
+          "coursesAll":"10",
+          "payMethod":"現金",
+          "invoiceNum" :"12345678",
+          "buyDate":"2022/06/23",
+          "exCourse":"否",
+          "salaryS":"6500"
+        },
+        "reserveDetail": [
+            {
+                "reserveId": "1",
+                "reserveDate": "2023/06/09",
+                "reservetime": "13:00-14:00",
+                "cancel":"否",
+                "attandence":"是",
+                "note":"你好"
+                
+            },
+            {
+                "reserveId": "2",
+                "reserveDate": "2023/06/10",
+                "reservetime": "13:00-14:00",
+                "cancel":"否",
+                "attandence":"是",
+                "note":"～～～～"
+            }
+        ]
+      },
+      "status":"快要截止",
+      "classNote":"哈囉！"
+    },
+    {
+        "id": "1",
+        "courseType":"PT",
+        "coursesAll":"10",
+        "exCourse":"否",
+        "coach" :{ 
+          "coachName": "B",
+          "coachGender":"男",
+          "coachPhone":"0900-000-111",
+          "major":[
+              "PT"
+            ],
+          "joinDate":"2020/01/30",
+          "salary":"600"
+        },
+        "student": {
+          "createDate":"2022/06/01",
+          "stuID":"2",
+          "stuName": "甜甜",
+          "stuGender":"男",
+          "stuNote": "吃太多",
+          "coursesFIN":"7",
+          "courseLeft":"3",
+          "preCourseLeft":"6",
+          "stuPhone":"0928-532-000",
+          "buyDetailArray":[{
+            "courseType":"PT",
+            "coachName": "B",
+            "coursesAll":"10",
+            "payMethod":"現金",
+            "invoiceNum" :"12345678",
+            "buyDate":"2022/06/23",
+            "exCourse":"否",
+            "salaryS":"6500"
+          }],
+          "buyDetail":{
+            "courseType":"PT",
+            "coachName": "B",
+            "coursesAll":"10",
+            "payMethod":"現金",
+            "invoiceNum" :"12345678",
+            "buyDate":"2022/06/23",
+            "exCourse":"否",
+            "salaryS":"6500"
+          },
+          "reserveDetail": [
+              {
+                  "reserveId": "1",
+                  "reserveDate": "2023/06/13",
+                  "reservetime": "13:00-14:00",
+                  "cancel":"否",
+                  "attandence":"是",
+                  "note":"哈囉！"
+              },
+              {
+                  "reserveId": "2",
+                  "reserveDate": "2023/07/10",
+                  "reservetime": "13:00-14:00",
+                  "cancel":"是",
+                  "attandence":"否",
+                  "note":"哈哈哈！"
+              }
+          ]
+        },
+        "status":"已截止",
+        "classNote":"嘿嘿"
+      },
+      {
+        "id": "3",
+        "courseType":"皮拉提斯",
+        "coursesAll":"10",
+        "exCourse":"否",
+        "coach" :{ 
+          "coachName": "A",
+          "coachGender":"男",
+          "coachPhone":"0900-000-000",
+          "major":[
+              "PT","皮拉提斯"
+            ],
+          "joinDate":"2020/01/30",
+          "salary":"650"
+        },
+        "student": {
+          "createDate":"2022/06/23",
+          "stuID":"1",
+          "stuName": "Lulu",
+          "stuGender":"女",
+          "stuNote": "-",
+          "coursesFIN":"0",
+          "courseLeft":"10",
+          "preCourseLeft":"10",
+          "stuPhone":"0928-532-816",
+          "buyDetailArray":[{
+            "courseType":"皮拉提斯",
+            "coachName": "A",
+            "coursesAll":"10",
+            "payMethod":"現金",
+            "invoiceNum" :"12345678",
+            "buyDate":"2022/05/23",
+            "exCourse":"否",
+            "salaryS":"6500"
+          }],
+          "buyDetail":{
+            "courseType":"皮拉提斯",
+            "coachName": "A",
+            "coursesAll":"10",
+            "payMethod":"現金",
+            "invoiceNum" :"12345678",
+            "buyDate":"2022/05/23",
+            "exCourse":"否",
+            "salaryS":"6500"
+          },
+          "reserveDetail": [
+              {
+                  "reserveId": "1",
+                  "reserveDate": "2023/06/09",
+                  "reservetime": "13:00-14:00",
+                  "cancel":"否",
+                  "attandence":"是",
+                  "note":"你好"
+                  
+              },
+              {
+                  "reserveId": "2",
+                  "reserveDate": "2023/06/10",
+                  "reservetime": "13:00-14:00",
+                  "cancel":"否",
+                  "attandence":"是",
+                  "note":"～～～～"
+              },
+              {
+                "reserveId": "3",
+                "reserveDate": "2023/06/28",
+                "reservetime": "13:00-14:00",
+                "cancel":"否",
+                "attandence":"是",
+                "note":"～～"
+            }
+          ]
+        },
+        "status":"-",
+        "classNote":"哈囉！"
+      }
+]

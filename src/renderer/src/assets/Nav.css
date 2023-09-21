@@ -1,0 +1,38 @@
+/* nav */
+.nav{
+    flex-direction:column;
+    background-color: #352F29;
+}
+
+.nav_logo{
+    display: flex;
+    justify-content:space-around;
+    margin: 30px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-decoration: none;
+    padding: 15px;
+    color:#DFC994;
+}
+.nav-item-active{
+    background-color: #DFC994;
+    color: #352F29;
+    text-decoration: none;
+}
+.nav-item:hover{
+    background-color: #DFC994;
+    color: #352F29;
+}
+/* .nav-item{
+    width: 85%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+} */
+.nav-word{
+    padding-right: 30px;
+}

@@ -1,0 +1,58 @@
+.nopadding{
+    padding: 0;
+}
+.title{
+    margin-bottom: 20px;
+}
+.money-title{
+    font-weight: 900;
+}
+.h-50{
+    height: 10px;
+}
+.row-no-gutter {
+    --bs-gutter-x:0 !important;
+}
+
+/* search bar */
+.search-btn{
+    white-space:nowrap;
+}
+.search-area{
+    display: flex;
+    flex-direction: row;
+}
+.search-area .btn{
+    margin-right: 0;
+}
+.search-area .form-control{
+    border: var(--bs-border-width) solid var(--bs-golden) !important;
+}
+.h-50 .DatePicksTitle{
+    margin: 0;
+}
+
+/* table style */
+.table-container{
+    padding: 40px;
+    /* min-height: 900px; */
+}
+.column-header {
+    --bs-table-bg:var(--bs-gray-100);
+    /* line-height: 52px; */
+    border-bottom: 2px;
+}
+.table-items {
+    line-height: 40px;
+}
+.alert-mode{
+    color:var(--bs-red) !important;
+    font-weight: 900;
+}
+.filter-label span{
+    display: none;
+}
+.table-link-underline-none{
+    text-decoration: none ;
+    color: transparent !important;
+}

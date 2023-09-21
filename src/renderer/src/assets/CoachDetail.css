@@ -1,0 +1,167 @@
+.detailTitle{
+    margin:55px 80px;
+}
+
+.tabletitlebox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .classCoachBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .classCoachBox-item{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* margin: 0 10px; */
+    margin-right: 30px;
+  }
+  .classcontainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .btnbox{
+    display: flex;
+    flex-direction: row;
+  }
+  .btnbox-item{
+    margin: 5px;
+  }
+  .reservetab{
+    width: 100%;
+    /* height: 336px; */
+    background-color: #f3f3f3;
+    /* margin: 0 24px; */
+  }
+  .reserveboxtitle{
+    padding: 10px;
+    font-size: 28px;
+  }
+  .reservebox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    align-items: center;
+    /* margin: 60px 10px; */
+    padding:10px;
+    
+  }
+  .rstitle{
+    padding: 4px;
+  }
+  .reservebox-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .comfirmbtn{
+    margin: 40px auto;
+  }
+
+  /*coachstudentlist*/
+.CoachStudentsListBox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+    /* justify-content: space-around;
+    align-items: flex-end;
+    align-self: flex-start;
+    margin: 0 10px; */
+  }
+  .CoachStudentsList{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    /* margin-left: 30px; */
+    /* width: 302px; */
+  }
+  .CoachStudentsListContainer{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 784px;
+  }
+  .CoachStudentsListTitle{
+    padding: 20px;
+    font-size: 28px;
+    border-bottom-style: solid;
+    border-bottom-width:1px;
+  }
+  .CoachStudentsListBox-item{
+    /* margin: 16px; */
+    padding: 0;
+  }
+  .coach-top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    /* width: 1164px;
+    height: 70px; */
+  }
+  .coach-top-bar-item{
+    margin: 0 10px;
+    padding: 0px;
+    font-size: 28px;
+  }
+  /*coachdetaildate*/
+  .chooseDateBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  .DatePicksTitle{
+    font-size: 16px;
+    /* margin: 0 10px; */
+  }
+  .coachdetailcol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 10px;
+  }
+  .coachdetailright{
+    width: 100%;
+    /* padding-left: 20px; */
+    /* margin: 0px 24px; */
+  }
+
+  /*from form css*/
+
+ /* .colSet{
+    display: flex;
+ } */
+
+
+ /*for titles*/
+.detailboxright{
+    padding: 22px;
+    margin: 24px 0 0 0;
+}

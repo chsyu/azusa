@@ -1,0 +1,25 @@
+ 
+
+.stutopbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.doneclass{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0px;
+   
+}
+.doneclasscard{
+    /* background-color: #b1b1b1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100px;
+}

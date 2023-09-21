@@ -1,0 +1,129 @@
+/* 整頁設定 */
+.container-fluid{
+    height: 1080px;
+}
+
+.form_class{
+    height: 100%;
+}
+
+.row-no-gutters > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+ /* 分頁用 */
+.content{
+    display: none;
+}
+.show-content{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+/* form */
+.new_class{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.new_class2{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.title_word{
+    font-size: 40px;
+    padding: 40px;
+}
+.form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.class_category{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.form-group{
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 15px;
+    white-space:nowrap;
+
+}
+.select{
+    padding-left: 10px;
+}
+.form-group2{
+    width: 60%;
+    display: flex;
+    margin: 15px;
+    justify-content:space-between;
+
+}
+.form-group3{
+    width: 60%;
+    display: flex;
+    justify-content:end;
+
+}
+.form-group4{
+    width: 60%;
+    display: flex;
+    justify-content:space-between;
+    margin: 15px;
+
+
+}
+.form-group4-1{
+    width: 86%;
+    display: flex;
+    justify-content:space-between;
+
+}
+.form_btn{
+    width: 90%;    
+}
+.form_btn2{
+    width: 90%;  
+    padding-left: 10px;  
+}
+.btn{
+   margin-right: 5px;
+}
+.btn:focus{
+    background-color: #DFC994;
+    color: #352F29 ;
+}
+.select{
+    width: 90%;
+}
+.form-check{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.check{
+    display: flex;
+    flex-direction:row;
+    width: 87%;
+}
+.form-check{
+    padding-right: 20px;
+}
+

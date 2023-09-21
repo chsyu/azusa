@@ -1,0 +1,14 @@
+[
+    {
+        "stuID":"0",
+        "stuName":"",
+        "stuGender": "",
+        "stuPhone": "",
+        "stuEmail": "",
+        "stuAddress": "",
+        "stuContact": "",
+        "stuRelation":"",
+        "stuContact_tel":"",
+        "stuNote":""
+      }
+]
