@@ -68,19 +68,20 @@ function createWindow() {
   })
 
   //close window and save file
-  mainWindow.on('closeWindow', () => {
-    ipcMain.removeAllListeners()
-    ipcMain.removeHandler('writeFile')
-    ipcMain.removeHandler('readFile')
-    ipcMain.removeHandler('closeWindow')
-    mainWindow.destroy()
+
+  ipcMain.handle('closeWindow', () => {
+    mainWindow.destroy();
   })
+
   mainWindow.on('close', (event) => {
     event.preventDefault()
     mainWindow.webContents.send('readyToClose')
   })
   mainWindow.on('closed', () => {
-    mainWindow = null
+    ipcMain.removeAllListeners()
+    ipcMain.removeHandler('writeFile')
+    ipcMain.removeHandler('readFile')
+    ipcMain.removeHandler('closeWindow')
   })
   // let showExitPrompt = true
   // win.on('close', (event) => {

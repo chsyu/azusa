@@ -17,7 +17,7 @@ if (process.contextIsolated) {
       writeFile: (arg) => ipcRenderer.invoke('writeFile', arg),
       readFile: (arg) => {
         return ipcRenderer.invoke('readFile', arg)
-      }
+      },
     })
   } catch (error) {
     console.error(error)

@@ -96,8 +96,6 @@ function App() {
       onInitState()
     }
     setIsLoading(false)
-    console.log('call close window when init')
-    window.api.closeWindow()
   }, [])
 
   useEffect(() => {
