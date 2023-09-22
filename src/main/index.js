@@ -8,6 +8,31 @@ import os from 'os'
 //home directory
 const homedir = os.homedir()
 
+const directoryPath = `${homedir}/Desktop/AzusaBackUp`
+
+const checkFolder = async () => {
+  try {
+    fs.access(directoryPath, fs.constants.F_OK, (err) => {
+      if (err) {
+        console.log('The directory does not exist.');
+        fs.mkdir(directoryPath, (err) => {
+          if (err) {
+            console.error(err)
+            return
+          }
+          console.log('The directory was created successfully!')
+        })
+      }
+
+      console.log('The directory exists.')
+    })
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+checkFolder()
+
 function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
@@ -45,7 +70,7 @@ function createWindow() {
 
   //write file
   ipcMain.handle('writeFile', (event, arg) => {
-    const filePath = `${homedir}/Desktop/AzusaBackUp/${arg.fileName}`
+    const filePath = `${directoryPath}/${arg.fileName}`
     mainWindow.webContents.send('filePathInfo', filePath)
     try {
       fs.writeFile(filePath, arg.data, (err) => {
@@ -63,7 +88,7 @@ function createWindow() {
 
   //read file
   ipcMain.handle('readFile', (event, arg) => {
-    const filePath = `${homedir}/Desktop/AzusaBackUp/${arg.fileName}`
+    const filePath = `${directoryPath}/${arg.fileName}`
     return fs.readFile(filePath, 'utf-8')
   })
 
